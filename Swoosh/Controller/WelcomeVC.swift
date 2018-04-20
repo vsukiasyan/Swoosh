@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgimg: UIImageView!
@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
     
+    }
+    
+    @IBAction func unwindFromSKillVC(unwindSegue: UIStoryboardSegue) {
+        
     }
 
     override func didReceiveMemoryWarning() {
